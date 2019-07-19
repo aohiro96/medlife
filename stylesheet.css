@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(car.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  color:white
+  }
+
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* positionãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã‚’fixedã«ã€topã‚’0ã«æŒ‡å®šã—ã¦ãã ã•ã„ */
+  position:fixed;
+  top:0;
+
+  /* z-indexã‚’10ã«æŒ‡å®šã—ã¦ãã ã•ã„ */
+  z-index:100;
+}
+
+.title {
+  color:white;
+  font-size: 50px
+}
+.header-left{
+  width:300px;
+  margin:auto;
+}
+
+.user{
+}
+
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+}
+.contact{
+  background-color: #888888;
+}
+.contact p{
+  opacity: 0.7;
+  color:black
+}
+.btn-message {
+  display: block;
+  margin:20px
+}
