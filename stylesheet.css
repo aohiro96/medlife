@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
 }
-
+<meta name="viewport" content="width=device-width">
 a {
   text-decoration: none;
 }
