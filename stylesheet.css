@@ -65,6 +65,10 @@ header {
   display:block;
   color:white;
 }
+.title:visited{
+  display:block;
+  color:white;
+}
 .header-right{
   float:right;
   background-color:rgba(255, 255, 255, 0.3);
@@ -77,6 +81,11 @@ header {
   background-color:rgba(255, 255, 255, 0.5);
 }
 .ver2{
+  display: block;
+  margin-top: 30px;
+  color:white;
+}
+.ver2:visited{
   display: block;
   margin-top: 30px;
   color:white;
