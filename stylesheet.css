@@ -171,6 +171,9 @@ header {
   color:white
   }
 
+.change1 {
+  padding:10px;
+}
 .change1 h2 {
     font-weight: normal;
     text-align: center;
@@ -186,6 +189,7 @@ header {
   }
 .change2{
   background-image: url(black.png);
+  padding:10px;
 }
 .change2 h2 {
     font-weight: normal;
@@ -199,6 +203,9 @@ header {
     font-size: 20px;
     color: #eeeeee;
 
+  }
+  .change3 {
+    padding:10px;
   }
 .change3 h2 {
     font-weight: normal;
