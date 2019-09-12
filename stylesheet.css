@@ -97,7 +97,7 @@ header {
 
 
 .change-modal-wrapper{
-  display:none;
+
   position: fixed;
   top: 0;
   right: 0;
@@ -111,7 +111,7 @@ header {
   top: 50%;
   left: 10%;
   background-color: #e6ecf0;
-  padding: 20px 0 40px;
+  padding: 100px 0 40px;
   border-radius: 10px;
   width: 80%;
   height: auto;
@@ -119,9 +119,9 @@ header {
 
 }
 .m-change{
-  margin-top: 5% ;
-  margin-bottom:5%;
-  font-size:30px;
+  margin-top: 10% ;
+  margin-bottom:10%;
+  font-size:35px;
 }
 .close-modal{
 
