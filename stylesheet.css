@@ -95,6 +95,43 @@ header {
 }
 
 
+
+.change-modal-wrapper{
+  display:none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+.change-modal {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  text-align: center;
+
+}
+.m-change1{
+  margin-top: 5%;
+}
+.close-modal{
+
+  position: absolute;
+  top: 2px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+
+
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
@@ -166,7 +203,7 @@ header {
   letter-spacing: 5px;
 }
 
-.list-wrapper p {
+.list-wrapper h3 {
   opacity: 0.7;
   color:white
   }

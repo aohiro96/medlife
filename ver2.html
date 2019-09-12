@@ -1,8 +1,13 @@
-<html><head>
-    <meta charset="utf-8">
-    <title>Medlife</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<html lang="ja"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Medlife</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -12,39 +17,50 @@
           <a class = 'title' href="index.html">~Medlife~</a>
         </div>
         <div class = "header-right">
-          <a class = "ver2" href="ver2.html">ver2.0にて実装予定の機能</a>
-
+          <h7 class = "ver2">ver2.0にて実装予定の機能一覧</h7>
         </div>
+
+    </div>
 
 
 
       </div>
     </header>
+    <div class="change-modal-wrapper" id="change-modal">
+        <div  class = "change-modal">
+          <h3 class ="close-modal">×閉じる</h3>
+          <h4 class = "m-change1" href ="#1">1. マッチングした相手とMelife内でチャット</h4>
+          <h4 href ="#2">2. 運転者の車種と車の色、登録機能</h4>
+          <h4 href ="#3">3. 利用時の性別、学年絞り込み機能</h4>
+        </div>
+    </div>
+
+
     <div class="list-wrapper">
       <div class="list">
         <h1>ver2.0で</h1>
         <h1>Medlifeは使いやすく</h1>
-        <p>1. マッチングした相手とMelife内でチャット</p>
-        <p>2. 運転者の車種と車の色、登録機能</p>
-        <p>3. 利用時の性別、学年絞り込み機能</p>
+        <h3 href = "#1">1. マッチングした相手とMelife内でチャット</h3>
+        <h3 href = "#2">2. 運転者の車種と車の色、登録機能</h3>
+        <h3 href = "#3">3. 利用時の性別、学年絞り込み機能</h3>
       </div>
     </div>
     <div class="explain-wrapper">
       <div class="explain-container">
         <div class="changes">
-          <div class="change1">
+          <div class="change1" id = "1">
             <h2>1. マッチングした相手とMelife内でチャット</h2>
             <p>マッチングした相手とlineが友達になる必要ありません。</p>
             <p>Medlife内でチャットできます。</p>
             <div class="image"><img src="change1.jpg" class="change-image1" ></div>
           </div>
-          <div class="change2">
+          <div class="change2" id = "2">
             <h2>2. 運転者の車種と車の色、登録機能</h2>
             <p>相手が来てもどの車かわからないという不安はなくなります</p>
             <p>運転者登録時に車種と色を登録し、利用者に知らせます</p>
             <div class="image"><img src="change2.jpg" class="change-image2" ></div>
           </div>
-          <div class="change3">
+          <div class="change3" id = "3">
             <h2>3. 利用時の性別絞り込み機能</h2>
             <p>運転者が異性だと怖いな、、</p>
             <p>そんな人のために運転者の性別と学年を選べる機能を追加します</p>
@@ -73,5 +89,5 @@
     </div>
   </div>
 
-
+<script type="text/javascript" src="script.js"></script>
 </body></html>
