@@ -108,7 +108,7 @@ header {
 }
 .change-modal {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 10%;
   background-color: #e6ecf0;
   padding: 20px 0 40px;
@@ -118,8 +118,10 @@ header {
   text-align: center;
 
 }
-.m-change1{
-  margin-top: 5%;
+.m-change{
+  margin-top: 5% ;
+  margin-bottom:5%;
+  font-size:30px;
 }
 .close-modal{
 

@@ -2,10 +2,11 @@ $(function(){
 
 
 
-  // ヘッダー内の<a>タグをクリックしたときのclickイベントを作成してください。
+
   $('.list h3').click(function(){
     var id = $(this).attr("href")
     var position = $(id).offset().top;
+    
     $('html,body').animate({
       'scrollTop': position
     }, 500);
