@@ -108,7 +108,7 @@ header {
 }
 .change-modal {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 10%;
   background-color: #e6ecf0;
   padding: 100px 0 40px;
@@ -122,6 +122,9 @@ header {
   margin-top: 10% ;
   margin-bottom:10%;
   font-size:35px;
+  text-decoration:underline;
+  text-decoration-color:#4169e1;
+  color:#4169e1;
 }
 .close-modal{
 
@@ -207,7 +210,9 @@ header {
 
 .list-wrapper h3 {
   opacity: 0.7;
-  color:white
+  text-decoration:underline;
+  text-decoration-color:#4169e1;
+  color:#4169e1;
   }
 
 .change1 {
