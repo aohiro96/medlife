@@ -97,7 +97,7 @@ header {
 
 
 .change-modal-wrapper{
-
+  display:none;
   position: fixed;
   top: 0;
   right: 0;
