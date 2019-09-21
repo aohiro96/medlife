@@ -245,7 +245,7 @@ header {
 .change-image3 {
   width: 50%; }
 
-@media (max-width: 670px) {
+@media (max-width: 1000px) {
   .header-left {
     width: 50%;
     color: white;
