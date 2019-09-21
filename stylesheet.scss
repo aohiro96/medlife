@@ -50,7 +50,7 @@ header {
 }
 
 .header-left{
-  height: 65px;
+  height:65px;
   width:50%;
   color:white;
   font-size: 50px;
@@ -80,6 +80,14 @@ header {
 
   background-color:rgba(255, 255, 255, 0.5);
 }
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* displayをnoneに指定してください */
+  display:none;
+}
 .ver2{
   display: block;
   margin-top: 30px;
@@ -108,23 +116,25 @@ header {
 }
 .change-modal {
   position: absolute;
-  top: 30%;
-  left: 10%;
-  background-color: #dddddd;
-  padding: 100px 0 40px;
+  top: 0%;
+  left: 50%;
+  background-color: rgba(34, 49, 52, 1.0);
+  padding: 100px 0 0px;
   border-radius: 10px;
-  width: 80%;
+  width: 50%;
   height: auto;
   text-align: center;
 
 }
 .m-change{
-  margin-top: 10% ;
-  margin-bottom:10%;
+  display:block;
+  margin-top: 0%;
+  margin-bottom:0;
+  padding-top:5%;
+  padding-bottom:5%;
   font-size:35px;
-  text-decoration:underline;
-  text-decoration-color:#4169e1;
-  color:#4169e1;
+  color:#ffffff;
+  border-top:solid thin rgba(100, 100, 100, 1.0) ;
 }
 .close-modal{
 
@@ -134,6 +144,7 @@ header {
   color: rgba(128, 128, 128, 0.46);
   cursor: pointer;
 }
+
 
 
 
@@ -260,3 +271,65 @@ $change-image-width:50%;
 .change-image3{
     width:$change-image-width;
     }
+
+@media (max-width:670px){
+  .header-left{
+    width:50%;
+    color:white;
+    font-size: 45px;
+    text-align:left;
+    padding-left: 10px;
+  }
+  .header-right{
+    display:none;
+  }
+  .menu-icon{
+    display:block;
+  }
+  .change-modal-wrapper{
+    display:none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+  }
+  .change-modal {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    background-color: rgba(34, 49, 52, 1.0);
+    padding: 60px 0 0px;
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+    text-align: center;
+
+  }
+  .m-change{
+    display:block;
+    margin-top: 0%;
+    margin-bottom:0%;
+    padding:10% 5%;
+    font-size:20px;
+    color:#ffffff;
+    border-top:solid thin rgba(100, 100, 100, 1.0) ;
+  }
+  .close-modal{
+
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+  .video3{
+    width:75%;
+  }
+  .image{
+    width:100%
+  }
+
+}
