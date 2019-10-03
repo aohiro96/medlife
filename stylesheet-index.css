@@ -1,0 +1,247 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN"; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(car.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center; }
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 60px;
+  letter-spacing: 5px; }
+
+.top-wrapper p {
+  opacity: 0.7;
+  color: white; }
+
+.fa {
+  margin-right: 5px; }
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* positionãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã‚’fixedã«ã€topã‚’0ã«æŒ‡å®šã—ã¦ãã ã•ã„ */
+  position: fixed;
+  top: 0;
+  /* z-indexã‚’10ã«æŒ‡å®šã—ã¦ãã ã•ã„ */
+  z-index: 100; }
+
+.header-left {
+  height: 65px;
+  width: 50%;
+  color: white;
+  font-size: 50px;
+  float: left;
+  padding-left: 30px; }
+
+.header-left:hover {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.title {
+  display: block;
+  color: white; }
+
+.title:visited {
+  display: block;
+  color: white; }
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0px 0px 0px 30px;
+  padding: 0px 30px 0px 30px;
+  height: 65px; }
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* displayをnoneに指定してください */
+  display: none; }
+
+.ver2 {
+  display: block;
+  margin-top: 30px;
+  color: white; }
+
+.ver2:visited {
+  display: block;
+  margin-top: 30px;
+  color: white; }
+
+.change-modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100; }
+
+.change-modal {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  background-color: #223134;
+  padding: 100px 0 0px;
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+  text-align: center; }
+
+.m-change {
+  display: block;
+  margin-top: 0%;
+  margin-bottom: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 35px;
+  color: #ffffff;
+  border-top: solid thin #646464; }
+
+.close-modal {
+  position: absolute;
+  top: 2px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer; }
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center; }
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60; }
+
+.heading h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px; }
+
+.heading h3 {
+  font-weight: normal; }
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center; }
+
+.message {
+  padding: 15px 40px; }
+
+.contact {
+  background-color: #888888; }
+
+.contact p {
+  opacity: 0.7;
+  color: black; }
+
+.btn-message {
+  display: block;
+  margin: 20px; }
+
+.list {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.list-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: #000000;
+  background-size: cover;
+  color: white;
+  text-align: center; }
+
+.list-wrapper h1 {
+  opacity: 0.9;
+  font-size: 60px;
+  letter-spacing: 5px; }
+
+.list-wrapper h3 {
+  opacity: 0.7;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #4169e1;
+  text-decoration-color: #4169e1;
+  color: #4169e1; }
+
+.change1 {
+  background-color: #ffffff;
+  padding: 10px; }
+  .change1 h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    color: #5f5d60; }
+  .change1 p {
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    color: #5f5d60; }
+
+.change2 {
+  background-color: #000000;
+  padding: 10px; }
+  .change2 h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    color: #cccccc; }
+  .change2 p {
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    color: #cccccc; }
+
+.change3 {
+  background-color: #ffffff;
+  padding: 10px; }
+  .change3 h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    color: #5f5d60; }
+  .change3 p {
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    color: #5f5d60; }
+
+.explain-container {
+  width: 100%;
+  padding: 0 0px;
+  margin: 0 auto; }
+
+.change-image1 {
+  width: 50%; }
+
+.image {
+  text-align: center; }
+
+.change-image2 {
+  width: 50%; }
+
+.change-image3 {
+  width: 50%; }
